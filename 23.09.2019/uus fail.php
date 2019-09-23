@@ -8,10 +8,10 @@
  */
 
 
-echo '<h1>"Ülesanne 1"</h1>';
+echo '<h1>Ülesanne 1</h1>';
 echo '<h2>Info minu kohta</h2>';
 echo '<p>Hannes</p>';
 echo '<p>IKT</p>';
-echo '<p>a href=';
+echo '<p a href=hannes@gmail.com>hannes@khk.ee</p>';
 
 ?>
