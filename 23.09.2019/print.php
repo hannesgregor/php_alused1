@@ -1,3 +1,12 @@
+!<doctype html
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="author" content="MINA">
+              <title>Document</title>
+          </head>
+
+<body>
 <?php
 
 //Üherealine kommentaar - printimine funktsiooni abil
@@ -14,3 +23,6 @@ print "proov<br>";
 
 // echo abil väljastamine
 echo 'See on echo tekst';
+?>
+</body>
+          </html>
