@@ -13,3 +13,5 @@ echo 'Kaal:'.$weight.'<br>';
 
 $BMI=$weight / ($height * $height);
 
+
+
