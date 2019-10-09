@@ -10,12 +10,11 @@ $sum = $x + $y;
 $difference = $x - $y;
 $product = $x * $y;
 $quotient = $x / $y;
-$residual = $x % $y:
+$residual = $x % $y;
 
 //output table
 echo
-    '
-<table>
+    '<table>
         <thead>
             <tr>
                 <th>Operaator</th>
@@ -29,10 +28,10 @@ echo
             <tr>
                 <td> x+y </td>
                 <td> Liitmine </td>
-                <td> $x + $y</td>
-                <td></td>
-        </tr>
+                <td> ".$x" + ".$y"</td>
+                <td>".$sum"</td>
+            </tr>
         </tbody>
     </table>
-'
+ ';
 
