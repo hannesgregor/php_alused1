@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="913b1881-1d73-462d-873f-5b3fda5d6ade" name="Remote PHP 7.2" home="sftp://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data WEB_SERVER_CONFIG_ID="21bb8981-e3cd-4db9-954c-12de5fba677c" WEB_SERVER_CONFIG_NAME="ikt" WEB_SERVER_CREDENTIALS_ID="sftp://galkinhannesgreg@galkinhannesgregor.ikt.khk.ee:22" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/galkinhannesgreg/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" />
+      </interpreter>
+    </interpreters>
+  </component>
+  <component name="PhpInterpretersPhpInfoCache">
+    <phpInfoCache>
+      <interpreter name="Remote PHP 7.2">
+        <phpinfo binary_type="PHP" php_cgi="/opt/cpanel/ea-php72/root/usr/bin/php-cgi" php_cli="/opt/cpanel/ea-php72/root/usr/bin/php-cgi" path_separator=":" remote_host="193.40.62.14" version="7.2.22">
+          <additional_php_ini>/opt/cpanel/ea-php72/root/etc/php.d/20-bcmath.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-calendar.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-ctype.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-curl.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-dom.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-exif.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-fileinfo.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-ftp.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-gd.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-iconv.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-json.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-mbstring.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-mysqlnd.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-pdo.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-phar.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-posix.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-simplexml.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-soap.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-sqlite3.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-tokenizer.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-xml.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-xmlwriter.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-xsl.ini, /opt/cpanel/ea-php72/root/etc/php.d/20-zip.ini, /opt/cpanel/ea-php72/root/etc/php.d/30-mysqli.ini, /opt/cpanel/ea-php72/root/etc/php.d/30-pdo_mysql.ini, /opt/cpanel/ea-php72/root/etc/php.d/30-pdo_sqlite.ini, /opt/cpanel/ea-php72/root/etc/php.d/30-wddx.ini, /opt/cpanel/ea-php72/root/etc/php.d/30-xmlreader.ini, /opt/cpanel/ea-php72/root/etc/php.d/zzzzzzz-pecl.ini</additional_php_ini>
+          <configuration_file>/opt/cpanel/ea-php72/root/etc/php.ini</configuration_file>
+          <configuration_options>
+            <configuration_option name="include_path" value=".:/opt/cpanel/ea-php72/root/usr/share/pear" />
+          </configuration_options>
+          <debuggers />
+          <loaded_extensions>
+            <extension name="Core" />
+            <extension name="PDO" />
+            <extension name="Phar" />
+            <extension name="Reflection" />
+            <extension name="SPL" />
+            <extension name="SimpleXML" />
+            <extension name="bcmath" />
+            <extension name="calendar" />
+            <extension name="cgi-fcgi" />
+            <extension name="ctype" />
+            <extension name="curl" />
+            <extension name="date" />
+            <extension name="dom" />
+            <extension name="exif" />
+            <extension name="fileinfo" />
+            <extension name="filter" />
+            <extension name="ftp" />
+            <extension name="gd" />
+            <extension name="hash" />
+            <extension name="iconv" />
+            <extension name="json" />
+            <extension name="libxml" />
+            <extension name="mbstring" />
+            <extension name="mysqli" />
+            <extension name="mysqlnd" />
+            <extension name="openssl" />
+            <extension name="pcntl" />
+            <extension name="pcre" />
+            <extension name="pdo_mysql" />
+            <extension name="pdo_sqlite" />
+            <extension name="posix" />
+            <extension name="readline" />
+            <extension name="session" />
+            <extension name="soap" />
+            <extension name="sqlite3" />
+            <extension name="standard" />
+            <extension name="tokenizer" />
+            <extension name="wddx" />
+            <extension name="xml" />
+            <extension name="xmlreader" />
+            <extension name="xmlwriter" />
+            <extension name="xsl" />
+            <extension name="zip" />
+            <extension name="zlib" />
+          </loaded_extensions>
+        </phpinfo>
+      </interpreter>
+    </phpInfoCache>
+  </component>
+</project>
