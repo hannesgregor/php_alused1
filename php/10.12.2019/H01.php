@@ -9,5 +9,9 @@ require_once "DB.php";
 // ühenduys ikt serveris oleva andmebaasiga
 $ikt = connect(HOST, USER, PASS, DBNAME);
 
+// vaatame andmeid
+$sql = "SELECT * FROM TABLE 1";
+$result = query($sql, $ikt);
 echo "<pre>";
-print_r($ikt);
+print_r($result);
+

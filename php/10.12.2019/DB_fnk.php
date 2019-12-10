@@ -8,6 +8,7 @@ function connect($host, $user, $pass, $DBNAME) {
        echo "Probleem andmbebaasi ühendamisega<br>";
        exit;
     }
+    mysqli_set_charset($link, "utf8");
     // olemasoleva ühenduse tagastame põhiprogrammile
     return $link;
 }
@@ -15,4 +16,20 @@ function connect($host, $user, $pass, $DBNAME) {
 // päringu saatmine
 function query($sql, $link) {
     $result = mysqli_query($link, $sql);
+    if($result === false) {
+        echo "Probleem päringuga <b>".$sql."</b><br>";
+    }
+    return $result;
+}
+
+function getData($sql, $link){
+    $result = query($sql, $link);
+    $data = array ();
+    while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
+        $data[] = $row;
+    }
+    if (count($data) === 0){
+        return false;
+    }
+    return $data;
 }
