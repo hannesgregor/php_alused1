@@ -1,8 +1,8 @@
 <?php
 
-function connect($host, $user, $pass, $DBNAME) {
+function connect($host, $user, $pass, $dbname) {
     // ühendus andmebaasiga
-    $link = mysqli_connect($host, $user, $pass, $DBNAME);
+    $link = mysqli_connect($host, $user, $pass, $dbname);
     // kui ühendust ei tekkinud
     if($link === false){
        echo "Probleem andmbebaasi ühendamisega<br>";
