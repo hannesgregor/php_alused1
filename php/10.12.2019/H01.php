@@ -10,8 +10,7 @@ require_once "DB.php";
 $ikt = connect(HOST, USER, PASS, DBNAME);
 
 // vaatame andmeid
-$sql = "SELECT * FROM TABLE 1";
-$result = query($sql, $ikt);
-echo "<pre>";
-print_r($result);
+$sql = "SELECT Kool,Kokku FROM koolid2015";
+$result = getData(), $ikt);
+$tabeliPealkirjad = array("Kool", "2015");
 
